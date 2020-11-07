@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
       input: '_site',
+      data: '_data',
+      includes: '_includes',
       layouts: '_layouts',
       output: 'dist'
     }
