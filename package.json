@@ -1,0 +1,9 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "description": "This is the repository for the learning JAMStack and Eleventy.",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "author": "Michael Chidzik"
+}
