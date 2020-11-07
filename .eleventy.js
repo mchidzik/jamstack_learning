@@ -1,9 +1,12 @@
+const yaml = require('js-yaml')
+
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('./_site/css');
   eleventyConfig.addLayoutAlias('base', 'pageTemplates/base.njk');
   eleventyConfig.addLayoutAlias('page', 'pageTemplates/page.njk');
-
+  eleventyConfig.addDataExtension('yaml', contents => yaml.safeLoad(contents));
+  
   return {
     markdownTemplateEngine: 'njk',
     dir: {

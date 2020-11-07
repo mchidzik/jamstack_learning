@@ -30,3 +30,7 @@ The learning is on!
   <a href="{{ link.link }}">{{ link.name }}</a>
   {% endfor %}
 </div>
+
+<div>
+  <a href="tools">Tools</a>
+</div>

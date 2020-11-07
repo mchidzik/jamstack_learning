@@ -5,5 +5,9 @@
   "scripts": {
     "start": "eleventy --serve"
   },
-  "author": "Michael Chidzik"
+  "author": "Michael Chidzik",
+  "devDependencies": {
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.1"
+  }
 }

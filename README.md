@@ -22,4 +22,3 @@ npm init -y  # creates a package.json
 # Create *.eleventy.js* configution
 
 ````
-
